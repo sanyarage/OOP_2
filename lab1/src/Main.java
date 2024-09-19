@@ -10,5 +10,13 @@ public class Main
         System.out.println(middle.getMiddle("string"));
         System.out.println(middle.getMiddle("code"));
         System.out.println(middle.getMiddle("Practice"));
+
+        Uniq minimalWordFinder = new Uniq();
+
+        String sentence = "abcd fgg fff jj";
+
+        String result = minimalWordFinder.findUniq(sentence);
+        System.out.println("Слово с минимальным количеством уникальных символов: " + result);
     }
+
 }
