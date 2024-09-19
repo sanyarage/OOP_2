@@ -3,5 +3,7 @@ public class Main {
         Numerals numerals = new Numerals();
 
         numerals.filter();
+        System.out.println("Test");
     }
+
 }
